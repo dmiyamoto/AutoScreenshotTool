@@ -1,0 +1,26 @@
+{
+  "name": "autoscreenshottool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./lib/shapeCSV.js && node ./lib/screenshot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmiyamoto/AutoScreenshotTool.git"
+  },
+  "author": "dmiyamoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmiyamoto/AutoScreenshotTool/issues"
+  },
+  "homepage": "https://github.com/dmiyamoto/AutoScreenshotTool#readme"
+}
