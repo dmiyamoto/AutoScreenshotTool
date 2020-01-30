@@ -42,3 +42,7 @@ $ npm run start
 ## ■Screenshot files destination
 
 output/
+
+## ■License
+
+AutoScreenshotTool is [MIT licensed.](https://github.com/dmiyamoto/AutoScreenshotTool/blob/master/LICENSE)
